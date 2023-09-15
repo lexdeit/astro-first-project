@@ -1,0 +1,66 @@
+---
+import AppleCardSimple from "../../components/cards/apple-card-simple";
+import MainMenu from "../../components/navbar/main-menu";
+import MainFooter from "../../components/footer/main-footer";
+---
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nosotros - Red Virtual</title>
+    </head>
+    <body class="overflow-x-hidden">
+        <MainMenu />
+        <section
+            class="w-screen min-h-screen h-full flex flex-col justify-center p-6 xl:px-80 gap-12"
+        >
+            <div class="flex flex-col w-full h-auto gap-12">
+                <h1 class="text-gray-900 font-semibold text-7xl text-center">
+                    Shorten your project times massively, starting today
+                </h1>
+
+                <h2 class="text-gray-400 font-base text-xl text-center">
+                    Whether you're working on a small design project or a larger
+                    application, Cabana has everything you need to power through
+                    your projects… fast.
+                </h2>
+            </div>
+
+            <div class="flex">
+                <div
+                    class="flex flex-col justify-center items-center w-full h-full gap-4"
+                >
+                    <div class="w-full h-auto flex gap-4">
+                        <AppleCardSimple
+                            header="Alrededor de +9000 instalaciones"
+                            subheader="y contando..."
+                        />
+
+                        <AppleCardSimple
+                            header="Con ingenieros profesionales"
+                            subheader="y contando..."
+                        />
+                        <AppleCardSimple
+                            header="Alrededor de +9000 instalaciones"
+                            subheader="y contando..."
+                        />
+                    </div>
+
+                    <div class="w-full h-auto flex gap-4">
+                        <AppleCardSimple
+                            subheader="Built for both Designers & Developers"
+                            media="https://framerusercontent.com/images/BpbUwMhMrKuNP6aFgESt3hxKc.png?scale-down-to=512"
+                        />
+
+                        <AppleCardSimple
+                            subheader="1000s of high-quality Icons"
+                            media="https://framerusercontent.com/images/uZWMGje6cNNAMHBpHomxCMvEcw.png"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <MainFooter />
+    </body>
+</html>
