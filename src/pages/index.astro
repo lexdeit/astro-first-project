@@ -19,16 +19,22 @@ import MainFooter from "../../components/footer/main-footer";
 	<body class="overflow-x-hidden">
 		<MainMenu />
 		<section
-			class="flex flex-col w-screen min-h-screen h-full p-6 lg:px-10 xl:px-20 2xl:px-80 gap-12"
+			class="flex flex-col w-screen min-h-screen h-full px-6 lg:px-10 xl:px-20 2xl:px-80 gap-12"
 		>
 			<div
-				class="w-full h-full flex flex-wrap xl:flex-nowrap justify-center items-center gap-12"
+				class="w-full h-full min-h-screen xl:h-full flex flex-wrap xl:flex-nowrap justify-center items-center gap-12"
 			>
 				<div
-					class="w-full h-full flex flex-col justify-center items-center xl:items-start gap-6 overflow-hidden"
+					class="w-full h-full flex flex-col justify-center items-center xl:items-start gap-6 overflow-hidden "
 				>
+					<div class="block md:hidden w-full h-full ">
+						<img
+							src="https://astro-landing-page-tailwindcss.netlify.app/images/image-hero-desktop.png"
+						/>
+					</div>
+
 					<h1
-						class="text-gray-950 text-5xl xl:text-5xl font-semibold text-center xl:text-left"
+						class="text-gray-950 text-3xl xl:text-5xl font-semibold text-center xl:text-left"
 					>
 						Telecomunicaciones
 						<br class="hidden xl:block" />
@@ -42,7 +48,7 @@ import MainFooter from "../../components/footer/main-footer";
 					</h1>
 
 					<p
-						class="text-gray-600 text-lg font-medium text-center xl:text-left"
+						class="text-gray-600 xl:text-lg xl:font-medium text-center xl:text-left"
 					>
 						Desde velocidades de internet ultrarrápidas hasta
 						servicios de telefonía confiables, estamos aquí para
@@ -56,7 +62,7 @@ import MainFooter from "../../components/footer/main-footer";
 					</div>
 				</div>
 
-				<div class="w-full h-full">
+				<div class="hidden xl:block w-full h-full">
 					<img
 						src="https://astro-landing-page-tailwindcss.netlify.app/images/image-hero-desktop.png"
 					/>
@@ -64,7 +70,7 @@ import MainFooter from "../../components/footer/main-footer";
 			</div>
 
 			<section class="w-full h-auto flex flex-col gap-12">
-				<h3 class="font-semibold text-gray-900 text-6xl">
+				<h3 class="font-semibold text-gray-900 text-4xl xl:text-6xl">
 					Nuestra Telecomunicación.{" "}
 					<span class="text-gray-400">
 						Velocidad, Conexión, Innovación, Tu Futuro

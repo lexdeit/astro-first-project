@@ -32,7 +32,7 @@ const AppleCardSquare = ({ media, header, subheader }) => {
                         >{subheader}</h4>
 
                         <h2
-                            className="text-white font-semibold text-4xl"
+                            className="text-white font-semibold text-3xl xl:text-4xl"
                         >{header}</h2>
 
                     </div>

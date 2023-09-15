@@ -25,7 +25,7 @@ const AppleCardHugeHorizontal = ({ media, header, description, url, subheader, b
                 <div
                     className="w-full xl:w-[50%] h-full flex flex-col justify-center "
                 >
-                    <h4 className="text-6xl font-semibold">
+                    <h4 className="text-4xl xl:text-6xl font-semibold">
                         <span
                             className={`${reverse & color !== 'foreground' ? 'text-white' : color === 'foreground' ? 'text-gray-800' : "bg-gradient-to-b from-white to-gray-600 bg-clip-text text-transparent"}`}
                         >

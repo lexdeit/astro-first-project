@@ -56,10 +56,10 @@ const FormAppleCard = () => {
                     className='w-full xl:w-[50%] flex flex-col justify-center gap-4'
                 >
                     <h4
-                        className='text-gray-300 font-semibold text-5xl'
+                        className='text-gray-300 font-semibold text-4xl xl:text-5xl'
                     >
                         <span
-                            className='bg-gradient-to-t from-gray-700 to-white text-transparent bg-clip-text text-7xl xl:text-8xl'
+                            className='bg-gradient-to-t from-gray-700 to-white text-transparent bg-clip-text text-6xl xl:text-8xl 2xl:text-8xl'
                         >
                             Hablemos,
                         </span>
