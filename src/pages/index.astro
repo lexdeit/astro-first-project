@@ -6,6 +6,7 @@ import FormAppleCard from "../../components/forms/form-apple-card";
 import AppleCardSquare from "../../components/cards/apple-card-square";
 import MainMenu from "../../components/navbar/main-menu";
 import MainFooter from "../../components/footer/main-footer";
+import ButtonOpenModal from "../../components/generic/button-open-modal";
 ---
 
 <html lang="es">
@@ -19,15 +20,15 @@ import MainFooter from "../../components/footer/main-footer";
 	<body class="overflow-x-hidden">
 		<MainMenu />
 		<section
-			class="flex flex-col w-screen min-h-screen h-full px-6 lg:px-10 xl:px-20 2xl:px-80 gap-12"
+			class="flex flex-col w-screen min-h-screen h-full py-4 px-6 lg:px-10 xl:px-20 2xl:px-80 gap-12"
 		>
 			<div
 				class="w-full h-full min-h-screen xl:h-full flex flex-wrap xl:flex-nowrap justify-center items-center gap-12"
 			>
 				<div
-					class="w-full h-full flex flex-col justify-center items-center xl:items-start gap-6 overflow-hidden "
+					class="w-full h-full flex flex-col justify-center items-center xl:items-start gap-6 overflow-hidden"
 				>
-					<div class="block md:hidden w-full h-full ">
+					<div class="block md:hidden w-full h-full">
 						<img
 							src="https://astro-landing-page-tailwindcss.netlify.app/images/image-hero-desktop.png"
 						/>
@@ -58,7 +59,7 @@ import MainFooter from "../../components/footer/main-footer";
 					</p>
 
 					<div>
-						<Button color="primary" size="lg">Comienza</Button>
+						<ButtonOpenModal client:visible />
 					</div>
 				</div>
 
