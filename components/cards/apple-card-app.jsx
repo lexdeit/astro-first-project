@@ -19,7 +19,6 @@ const AppleCardApp = ({ media, header, description, url, subheader, background, 
 
             <img
                 src={background}
-                removeWrapper
                 className="absolute w-full h-full object-cover z-[0]"
             />
 

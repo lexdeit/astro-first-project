@@ -9,8 +9,6 @@ import {
 } from '@nextui-org/react'
 import { useState } from 'react'
 import axios from 'axios'
-import { AiOutlineUser, AiOutlineMail, AiOutlineNumber } from 'react-icons/ai'
-import { BsSend } from 'react-icons/bs'
 
 const FormAppleCard = () => {
 
@@ -86,7 +84,6 @@ const FormAppleCard = () => {
                                 name='name'
                                 onChange={handleOnChange}
                                 value={form.name}
-                                startContent={<AiOutlineUser size={20} />}
                                 isClearable
                                 variant='flat'
                                 isRequired
@@ -98,7 +95,6 @@ const FormAppleCard = () => {
                                 name='emailAddress'
                                 onChange={handleOnChange}
                                 value={form.emailAddress}
-                                startContent={<AiOutlineMail size={20} />}
                                 isClearable
                                 variant='flat'
                                 isRequired
@@ -110,7 +106,6 @@ const FormAppleCard = () => {
                                 name='phoneNumber'
                                 onChange={handleOnChange}
                                 value={form.phoneNumber}
-                                startContent={<AiOutlineNumber size={20} />}
                                 isClearable
                                 variant='flat'
                                 isRequired
@@ -133,7 +128,6 @@ const FormAppleCard = () => {
                             >
                                 <Button
                                     type='submit'
-                                    startContent={<BsSend size={20} />}
                                     radius='full'
                                     className='bg-white text-gray-800 font-medium'
                                 >Enviar</Button>
